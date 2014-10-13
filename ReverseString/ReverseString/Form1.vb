@@ -7,6 +7,15 @@ Public Class Form1
 
         ' Please write your code here!
 
-        txtOutput.Text = "Not implemented yet!"
+        Dim str As String = txtInput.Text
+        Dim strReverse As String = " "
+
+        For i As Integer = str.Length - 1 To 0 Step -1
+            strReverse = strReverse & str.Chars(i)
+
+        Next
+
+
+        txtOutput.Text = strReverse
     End Sub
 End Class

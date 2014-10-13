@@ -1,5 +1,6 @@
 ﻿Module Module1
 
+
     Sub Main()
         Dim i As Integer
         Dim j As Integer
@@ -8,6 +9,7 @@
             Console.WriteLine("Appendix " & Chr(i))
             For j = 1 To 25
                 Console.WriteLine("Section " & CStr(j))
+                j = 1
             Next
         Next
 
